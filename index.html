@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow:wght@400&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Catamaran:wght@500;700&family=Comfortaa:wght@700&display=swap"
+    rel="stylesheet"
+  />
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+  <link rel="stylesheet" href="css/accordion.css">
+  <link rel="stylesheet" href="css/styles.css" />
+  
+  <body>
+    <nav>
+      <div class="scroll">
+        <span>Portfolio</span>
+        <div class="sns">
+          <!-- Linkedin -->
+          <a href="https://www.linkedin.com/in/tatsuuehira/" target="_blank"
+            ><i
+              style="color: #fff;"
+              class="fa fa-linkedin-square"
+              aria-hidden="true"
+            ></i
+          ></a>
+          &nbsp;
+
+          <!-- Github -->
+          <a href="https://github.com/Tatsu6505" target="_blank"
+            ><i style="color: #fff;" class="fa fa-github" aria-hidden="true"></i
+          ></a>
+          &nbsp;
+
+          <!-- Instagram -->
+          <a href="https://www.instagram.com/tatsu_6505/" target="_blank"
+            ><i
+              style="color: #fff;"
+              class="fa fa-instagram"
+              aria-hidden="true"
+            ></i
+          ></a>
+          &nbsp;
+
+          <!-- facebook -->
+          <a href="https://www.facebook.com/tatsunori.uehira" target="_blank"
+            ><i
+              style="color: #fff;"
+              class="fa fa-facebook-square"
+              aria-hidden="true"
+            ></i
+          ></a>
+          &nbsp;
+
+          <!-- Twitter -->
+          <a href="https://twitter.com/wakeybeats" target="_blank"
+            ><i
+              style="color: #fff;"
+              class="fa fa-twitter"
+              aria-hidden="true"
+            ></i
+          ></a>
+          &nbsp;
+
+          <!-- YouTube -->
+          <a
+            href="https://www.youtube.com/channel/UCfDUwoMTMb7rp1waMl73iUQ/videos?view_as=subscriber"
+            target="_blank"
+            ><i
+              style="color: #fff;"
+              class="fa fa-youtube-play"
+              aria-hidden="true"
+            ></i
+          ></a>
+          &nbsp;
+
+          <!-- SoundCloud -->
+          <a href="https://soundcloud.com/wakeybeats6505" target="_blank">
+            <i
+              style="color: #fff;"
+              class="fa fa-soundcloud"
+              aria-hidden="true"
+            ></i>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Web Develoment -->
+    <div class="title">
+      <h1>TATSU UEHIRA</h1>
+      <h2>Web Design/Development</h2>
+    </div>
+
+    <!-- Pop-Up Event -->
+    <div class="row">
+      <h3>
+        "Pop-Up Event" - React Web Site
+      </h3>
+      <div class="column">
+        <a
+          href="https://tatsu6505.github.io/deploy-brunet-react-app/"
+          target="_blank"
+          ><img
+            src="images/web.png"
+            style="width: 100%;"
+            class="hover-shadow cursor"
+        /></a>
+      </div>
+    </div>
+    <div class="wrap">
+      <button class="accordion button">Click Me</button>
+      <div class="panel">
+        <ul class="check-list">
+          <li>
+            Personal project for a Japanese food pop-up, implemented in React,
+            hosted at:
+            http://tatsu6505.github.io/deploy-upgraded-brunet-react-app
+          </li>
+          <li>
+            Styled navigation bar to reduce transparency after scrolling to
+            provide users with a clear view of content
+          </li>
+          <li>
+            Separated pages through clean component design and implemented
+            proper page routing logic with react-router
+          </li>
+          <li>
+            Expanded my personal awareness of leading web technologies related
+            to UI/UX design
+          </li>
+          <li>
+            Technologies that were used include; HTML, CSS, JavaScript, jQuery,
+            and React.js
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- <div class="row">
+      <ul>
+        <li>
+          Personal project for a Japanese food pop-up, implemented in React,
+          hosted at: http://tatsu6505.github.io/deploy-upgraded-brunet-react-app
+        </li>
+        <li>
+          Styled navigation bar to reduce transparency after scrolling to
+          provide users with a clear view of content
+        </li>
+        <li>
+          Separated pages through clean component design and implemented proper
+          page routing logic with react-router
+        </li>
+        <li>
+          Expanded my personal awareness of leading web technologies related to
+          UI/UX design
+        </li>
+        <li>
+          Technologies that were used include; HTML, CSS, JavaScript, jQuery,
+          and React.js
+        </li>
+      </ul>
+    </div> -->
+
+    <!-- -- PROJECTS -- -->
+    <div class="title">
+      <h2>Graphic Design</h2>
+    </div>
+    <!-- "Album Art Work" Graduation Final Project -->
+    <div class="row">
+      <h3>"Album Art Work" - Final Graduation Project</h3>
+      <div class="column">
+        <p>Front</p>
+        <img
+          src="images/album-art-work-front.png"
+          style="width: 100%;"
+          onclick="openModal();currentSlide(1)"
+          class="hover-shadow cursor"
+        />
+      </div>
+
+      <div class="column">
+        <p>Inside</p>
+        <img
+          src="images/album-art-work-back.png"
+          style="width: 100%;"
+          onclick="openModal();currentSlide(2)"
+          class="hover-shadow cursor"
+        />
+      </div>
+
+      <div class="column">
+        <p>Back</p>
+        <img
+          src="images/album-art-work-back-inside.png"
+          style="width: 100%;"
+          onclick="openModal();currentSlide(3)"
+          class="hover-shadow cursor"
+        />
+      </div>
+
+      <div class="column">
+        <p>Side</p>
+        <img
+          src="images/album-art-work-side.png"
+          style="width: 100%;"
+          onclick="openModal();currentSlide(4)"
+          class="hover-shadow cursor"
+        />
+      </div>
+
+      <div class="column">
+        <p>CD</p>
+        <img
+          src="images/album-art-work-cd.png"
+          style="width: 100%;"
+          onclick="openModal();currentSlide(5)"
+          class="hover-shadow cursor"
+        />
+      </div>
+
+      <div class="column">
+        <p>DVD</p>
+        <img
+          src="images/album-art-work-dvd.png"
+          style="width: 100%;"
+          onclick="openModal();currentSlide(6)"
+          class="hover-shadow cursor"
+        />
+      </div>
+    </div>
+    <div class="row">
+      <ul>
+        <li>
+          Captured photos with a DSLR camera, and created each background image
+          with Photoshop
+        </li>
+        <li>
+          Made logos, texts, and adjusted all images with Adobe Illustrator
+        </li>
+        <li>
+          Designed according to CD packaging logo and copyright text standards
+        </li>
+        <li>
+          Technologies: Adobe Illustrator & Photoshop
+        </li>
+      </ul>
+    </div>
+
+    <!-- Wajima Nuri -->
+    <div class="row">
+      <h2>Award</h2>
+      <h3>
+        "Wajima-Nuri" - Award in Ishikawa CG Contest
+      </h3>
+      <div class="column">
+        <img
+          src="images/Urushi-nuri.jpg"
+          style="width: 100%;"
+          onclick="openModal();currentSlide(7)"
+          class="hover-shadow cursor"
+        />
+      </div>
+    </div>
+    <div class="row">
+      <ul>
+        <li>
+          Work presented online here: https://www.ucon-i.jp/cg/gallery2011.html
+        </li>
+        <li>
+          Direct image URL:
+          https://www.ucon-i.jp/cg/works/works_2011/2011_c06.jpg
+        </li>
+        <li>
+          Prize winner in the Ishikawa CG contest and published on their website
+        </li>
+        <li>
+          Recreated Wajima-Nuri in Illustrator and Photoshop, which is known as
+          a world-famous Japanese traditional handicraft for Wajima lacquerware
+        </li>
+        <li>Technologies: Adobe Illustrator & Photoshop</li>
+      </ul>
+    </div>
+    <hr />
+
+    <!-- Modal -->
+    <div id="myModal" class="modal">
+      <span class="close cursor" onclick="closeModal()">&times;</span>
+      <div class="modal-content">
+        <div class="mySlides">
+          <div class="numbertext">1 / 7</div>
+          <img
+            src="images/album-art-work-front.png"
+            style="width: 100%;"
+            onclick="openModal();currentSlide(1)"
+            class="hover-shadow cursor"
+          />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">2 / 7</div>
+          <img
+            src="images/album-art-work-back.png"
+            style="width: 100%;"
+            onclick="openModal();currentSlide(2)"
+            class="hover-shadow cursor"
+          />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">3 / 7</div>
+          <img
+            src="images/album-art-work-back-inside.png"
+            style="width: 100%;"
+            onclick="openModal();currentSlide(3)"
+            class="hover-shadow cursor"
+          />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">4 / 7</div>
+          <img
+            src="images/album-art-work-side.png"
+            style="width: 100%;"
+            onclick="openModal();currentSlide(4)"
+            class="hover-shadow cursor"
+          />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">5 / 7</div>
+          <img
+            src="images/album-art-work-cd.png"
+            style="width: 100%;"
+            onclick="openModal();currentSlide(5)"
+            class="hover-shadow cursor"
+          />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">6 / 7</div>
+          <img
+            src="images/album-art-work-dvd.png"
+            style="width: 100%;"
+            onclick="openModal();currentSlide(6)"
+            class="hover-shadow cursor"
+          />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">7 / 7</div>
+          <img
+            src="images/Urushi-nuri.jpg"
+            style="width: 100%;"
+            onclick="openModal();currentSlide(7)"
+            class="hover-shadow cursor"
+          />
+        </div>
+
+        <!-- <div class="mySlides">
+          <div class="numbertext">8 / 4</div>
+          <img
+            src="images/web.png"
+            style="width: 100%;"
+            onclick="openModal();currentSlide(8)"
+            class="hover-shadow cursor"
+          />
+        </div> -->
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="scroll2">
+        <span>Thank you for visiting!!</span>
+      </div>
+      <p>Last Update:</p>
+      <div id="date"></div>
+    </div>
+
+    <script src="js/script.js"></script>
+    <script>
+      let dateObj = new Date();
+      let month = dateObj.getUTCMonth() + 1; //months from 1-12
+      let day = dateObj.getUTCDate();
+      let year = dateObj.getUTCFullYear();
+      let date = dateObj.getUTCDate();
+      newDate = year + "/" + month + "/" + day;
+      document.getElementById("date").innerHTML = newDate;
+    </script>
+  </body>
+</html>
