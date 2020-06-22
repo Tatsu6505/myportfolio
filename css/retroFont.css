@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Monoton);
+
+body {
+  color: #fff;
+}
+
+.future-cop {
+}
+
+nav .future-cop .future {
+  text-align: center;
+  margin-top: 20px;
+  font-family: "Mr Dafoe", cursive;
+  font-size: 40px;
+  margin-bottom: 0;
+  color: #ffffff;
+  -webkit-text-fill-color: #ffffff;
+  text-shadow: -3px 0px 15px #00fff6, 5px 0px 20px #f700ff, 0 0 30px #ffffff;
+
+  -webkit-filter: drop-shadow(3px 3px 1px #7982fa);
+  -webkit-transform: skew(-5deg, -5deg);
+  font-weight: normal;
+  padding-bottom: 0px;
+}
+
+nav .future-cop .cop {
+  font-family: "Monoton", cursive;
+  font-size: 60px;
+  line-height: 1;
+  margin: 0;
+  background-image: -webkit-linear-gradient(
+    #ffffff 0%,
+    #d4d4d4 30%,
+    #dbdbdb 40%,
+    #ffffff 44%,
+    #868686 44%,
+    #a0a0a0 50%,
+    #c0c0c0 52%,
+    #c4c4c4 60%,
+    #ffffff 62%,
+    #c0c0c0 70%,
+    #888888 73%,
+    #afafaf 88%,
+    #ffffff 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px #fff;
+}
+
+.cop {
+  text-shadow: 0 0 100px #00fff6, 0 0 100px #f700ff, 0 0 40px #ffffff;
+  /* text-shadow: 0 0 40px #ffffff, 0 0 40px #ffffff; */
+}
